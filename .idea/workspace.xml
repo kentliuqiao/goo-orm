@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41c19eba-f1c4-4c53-a295-26f6bcae4844" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day2-reflect-schema/schema/schema.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-reflect-schema/schema/schema_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-reflect-schema/session.go/table.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2-reflect-schema/session.go/table_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1pEgL3MkxEfBA5MwOp5s8VOj75n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preference.GoLinterConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestParse in gooorm/schema">
+    <configuration name="TestNewEngine in gooorm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goo-orm" />
+      <working_directory value="$PROJECT_DIR$/day2-reflect-schema" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gooorm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestNewEngine\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNewEngine in gooorm_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goo-orm" />
+      <working_directory value="$PROJECT_DIR$/day1-database-sql" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day1-database-sql/gooorm_test.go" />
+      <pattern value="^\QTestNewEngine\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParse in gooorm/schema" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goo-orm" />
+      <working_directory value="$PROJECT_DIR$/day2-reflect-schema/schema" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gooorm/schema" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestParse\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestParse in gooorm/schema" />
+        <item itemvalue="Go Test.TestNewEngine in gooorm" />
+        <item itemvalue="Go Test.TestNewEngine in gooorm_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="602" y="453" width="588" height="523" key="#Go_Linter" timestamp="1614754439623">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="602" y="453" width="588" height="523" key="#Go_Linter/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614754439623" />
+    <state x="2552" y="392" key="#Go_Modules" timestamp="1614753628708">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2552" y="392" key="#Go_Modules/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1614753628708" />
+    <state x="672" y="285" key="#com.intellij.ide.util.MemberChooser" timestamp="1614756830708">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="672" y="285" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614756830708" />
+    <state width="1750" height="294" key="GridCell.Tab.0.bottom" timestamp="1614760434591">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="294" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614760434591" />
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1614753716078" />
+    <state width="1750" height="294" key="GridCell.Tab.0.center" timestamp="1614760434590">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="294" key="GridCell.Tab.0.center/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614760434590" />
+    <state width="1878" height="282" key="GridCell.Tab.0.center/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1614753716078" />
+    <state width="1750" height="294" key="GridCell.Tab.0.left" timestamp="1614760434589">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="294" key="GridCell.Tab.0.left/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614760434589" />
+    <state width="1878" height="282" key="GridCell.Tab.0.left/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1614753716078" />
+    <state width="1750" height="294" key="GridCell.Tab.0.right" timestamp="1614760434590">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="294" key="GridCell.Tab.0.right/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614760434590" />
+    <state width="1878" height="282" key="GridCell.Tab.0.right/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1614753716078" />
+    <state x="397" y="211" key="SettingsEditor" timestamp="1614754319407">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="397" y="211" key="SettingsEditor/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614754319407" />
+  </component>
+</project>
