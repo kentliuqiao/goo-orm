@@ -20,10 +20,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41c19eba-f1c4-4c53-a295-26f6bcae4844" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day2-reflect-schema/schema/schema.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-reflect-schema/schema/schema_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-reflect-schema/session.go/table.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day2-reflect-schema/session.go/table_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/clause/clause.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/clause/clause_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/clause/generator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/cmd_test/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/dialect/dialect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/dialect/sqlite3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/gooorm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/gooorm_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/log/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/log/log_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/schema/schema.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/schema/schema_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/session/hooksV1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/session/hooksV1_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/session/hooksV2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/session/hooksV2_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/session/raw.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/session/raw_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/session/record.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/session/record_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/session/table.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/session/table_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day5-transaction/session/transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/clause/clause.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/clause/clause_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/clause/generator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/cmd_test/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/dialect/dialect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/dialect/sqlite3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/gooorm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/gooorm_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/log/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/log/log_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/schema/schema.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/schema/schema_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/session/hooksV1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/session/hooksV1_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/session/hooksV2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/session/hooksV2_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/session/raw.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/session/raw_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/session/record.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/session/record_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/session/table.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/session/table_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6-migrate/session/transaction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,46 +109,72 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/day4-chain-update-delete/session" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestParse in gooorm/schema">
-    <configuration name="TestNewEngine in gooorm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestEngine_Migrate in gooorm">
+    <configuration name="TestEngine_Migrate in gooorm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goo-orm" />
-      <working_directory value="$PROJECT_DIR$/day2-reflect-schema" />
+      <working_directory value="$PROJECT_DIR$/day6-migrate" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="gooorm" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestNewEngine\E$" />
+      <pattern value="^\QTestEngine_Migrate\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestNewEngine in gooorm_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEngine_Transaction in gooorm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="goo-orm" />
-      <working_directory value="$PROJECT_DIR$/day1-database-sql" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day1-database-sql/gooorm_test.go" />
-      <pattern value="^\QTestNewEngine\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestParse in gooorm/schema" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="goo-orm" />
-      <working_directory value="$PROJECT_DIR$/day2-reflect-schema/schema" />
+      <working_directory value="$PROJECT_DIR$/day5-transaction" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="gooorm/schema" />
+      <package value="gooorm" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestParse\E$" />
+      <pattern value="^\QTestEngine_Transaction\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEngine_Transaction/commit in gooorm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goo-orm" />
+      <working_directory value="$PROJECT_DIR$/day5-transaction" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gooorm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestEngine_Transaction\E$/^\Qcommit\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEngine_Transaction/rollback in gooorm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goo-orm" />
+      <working_directory value="$PROJECT_DIR$/day5-transaction" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gooorm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestEngine_Transaction\E$/^\Qrollback\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSession_CallMethod in gooorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goo-orm" />
+      <working_directory value="$PROJECT_DIR$/day4-chain-update-delete/session" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gooorm/session" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestSession_CallMethod\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestParse in gooorm/schema" />
-        <item itemvalue="Go Test.TestNewEngine in gooorm" />
-        <item itemvalue="Go Test.TestNewEngine in gooorm_test.go" />
+        <item itemvalue="Go Test.TestEngine_Migrate in gooorm" />
+        <item itemvalue="Go Test.TestEngine_Transaction/rollback in gooorm" />
+        <item itemvalue="Go Test.TestEngine_Transaction/commit in gooorm" />
+        <item itemvalue="Go Test.TestEngine_Transaction in gooorm" />
+        <item itemvalue="Go Test.TestSession_CallMethod in gooorm/session" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +192,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -136,29 +210,37 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="672" y="285" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614756830708" />
-    <state width="1750" height="294" key="GridCell.Tab.0.bottom" timestamp="1614760434591">
+    <state width="1750" height="294" key="GridCell.Tab.0.bottom" timestamp="1614915480538">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="294" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614760434591" />
+    <state width="1750" height="294" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614915480538" />
     <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1614753716078" />
-    <state width="1750" height="294" key="GridCell.Tab.0.center" timestamp="1614760434590">
+    <state width="1750" height="294" key="GridCell.Tab.0.center" timestamp="1614915480537">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="294" key="GridCell.Tab.0.center/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614760434590" />
+    <state width="1750" height="294" key="GridCell.Tab.0.center/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614915480537" />
     <state width="1878" height="282" key="GridCell.Tab.0.center/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1614753716078" />
-    <state width="1750" height="294" key="GridCell.Tab.0.left" timestamp="1614760434589">
+    <state width="1750" height="294" key="GridCell.Tab.0.left" timestamp="1614915480536">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="294" key="GridCell.Tab.0.left/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614760434589" />
+    <state width="1750" height="294" key="GridCell.Tab.0.left/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614915480536" />
     <state width="1878" height="282" key="GridCell.Tab.0.left/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1614753716078" />
-    <state width="1750" height="294" key="GridCell.Tab.0.right" timestamp="1614760434590">
+    <state width="1750" height="294" key="GridCell.Tab.0.right" timestamp="1614915480537">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="294" key="GridCell.Tab.0.right/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614760434590" />
+    <state width="1750" height="294" key="GridCell.Tab.0.right/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614915480537" />
     <state width="1878" height="282" key="GridCell.Tab.0.right/0.23.1792.1097/1792.23.1920.1057@1792.23.1920.1057" timestamp="1614753716078" />
     <state x="397" y="211" key="SettingsEditor" timestamp="1614754319407">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="211" key="SettingsEditor/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614754319407" />
+    <state x="597" y="327" width="598" height="490" key="find.popup" timestamp="1614915526793">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="597" y="327" width="598" height="490" key="find.popup/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614915526793" />
+    <state x="561" y="269" width="670" height="676" key="search.everywhere.popup" timestamp="1614770180009">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="561" y="269" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097/1792.23.1920.1057@0.23.1792.1097" timestamp="1614770180009" />
   </component>
 </project>
